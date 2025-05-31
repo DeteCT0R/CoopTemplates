@@ -64,8 +64,8 @@ Console.FilterMatchRegex=
 Console.FilterMatchReplacement=
 Console.ThrowawayMessageRegex=^(WARNING|ERROR): Shader.+$
 Console.AppReadyRegex=^\[\d*\.\d*\] Log: Steam game server UID: \d*$
-Console.UserJoinRegex=^\[.*\]\s+DevNet:\s+Join\s+succeeded:\s+(?<username>.+)\s+playerid=(?<userid>.+)$
-Console.UserLeaveRegex=^\[.*\]\s+DevNet:\s+CleanUp:\s+clean\s+up\s+connection:\s+RemoteAddr:\s+(?<endpoint>.+),\s+PlayerId:\s+(?<userid>.+)$
+Console.UserJoinRegex=^\[\d*\.\d*\] DevNet:\s+Join\s+succeeded:\s+(?<username>.+)\s+playerid=(?<userid>.+)$
+Console.UserLeaveRegex=^\[\d*\.\d*\] DevNet:\s+CleanUp:\s+clean\s+up\s+connection:\s+RemoteAddr:\s+(?<endpoint>.+),\s+PlayerId:\s+(?<userid>.+)$
 Console.UserChatRegex=
 Console.UpdateAvailableRegex=^\[\d\d:\d\d:\d\d\] \[INFO\] A new server update is available! v[\d\.]+.$
 Console.SuppressLogAtStart=False
