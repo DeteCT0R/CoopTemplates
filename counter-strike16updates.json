@@ -94,7 +94,7 @@
         "UpdateSourceData": "https://www.amxmodx.org/amxxdrop/1.9/amxmodx-1.9.0-git5294-base-linux.tar.gz",
         "UpdateSourceTarget": "{{$FullBaseDir}}cstrike",
         "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
+        "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "InstallAMXModX",
         "UpdateSourceConditionValue": "true"
@@ -106,7 +106,7 @@
         "UpdateSourceData": "https://www.amxmodx.org/amxxdrop/1.9/amxmodx-1.9.0-git5294-cstrike-linux.tar.gz",
         "UpdateSourceTarget": "{{$FullBaseDir}}cstrike",
         "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": true,
+        "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "UpdateSourceConditionSetting": "InstallAMXModX",
         "UpdateSourceConditionValue": "true"
