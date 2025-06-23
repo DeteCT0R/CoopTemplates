@@ -743,6 +743,22 @@
         }
     },
     {
+        "DisplayName": "Install Metamod",
+        "Category": "Counter-Strike:stadia_controller",
+        "Subcategory": "Addons:dns:1",
+        "Description": "Sets whether to install and activate [Metamod-AMX](https://www.amxmodx.org/) or [Metamod-r](https://metamod-r.org/) when the server is updated. Metamod-r only works with reHLDS",
+        "Keywords": "install,metamod",
+        "FieldName": "InstallMetamod",
+        "InputType": "enum",
+        "ParamFieldName": "InstallMetamod",
+        "DefaultValue": "none",
+        "EnumValues": {
+            "none": "None",
+            "metamod-amx": "Metamod-AMX",
+            "metamod-r": "Metamod-r"
+        }
+    },
+    {
         "DisplayName": "Install reHLDS",
         "Category": "Counter-Strike:stadia_controller",
         "Subcategory": "Addons:dns:1",
